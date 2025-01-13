@@ -16,7 +16,12 @@ node app.js
 
 # Create a skeleton of new project using express-generator
 ```bash
-npx express-generator
+# Install express-generator globally to use it as a command
+npm install -g express-generator
+express --view=pug myapp
+
+# Execute exoress-generator to create a new project
+npx express-generator --view=pug
 
 # install dependencies:
 npm install
@@ -26,6 +31,10 @@ DEBUG=express:* npm start
 ```
 
 
-### Noge
+### Note
 - pugがjadeの後継らしい
 - transformers@1.8.3: Deprecated, use jstransformer
+
+
+## npm
+-  npm install -g express-generator
