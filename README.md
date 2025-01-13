@@ -14,3 +14,7 @@ npm install express
 node app.js
 ```
 
+# Create a skeleton of new project using express-generator
+```bash
+npx express-generator
+```
